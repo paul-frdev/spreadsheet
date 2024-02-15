@@ -19,8 +19,6 @@ function App() {
     }
   }, [])
 
-
-
   useEffect(() => {
     if (divRef.current) {
       const letters = charRange('A', 'J');
